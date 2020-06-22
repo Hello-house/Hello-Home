@@ -78,9 +78,9 @@
 
 > ## XGBoost
 
-<img src="./images/XGBoost1.PNG" width="330px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
-<img src="./images/XGBoost2.PNG" width="330px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
-<img src="./images/XGBoost3.PNG" width="330px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
+<img src="./images/XGBoost1.PNG" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
+<img src="./images/XGBoost2.PNG" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
+<img src="./images/XGBoost3.PNG" width="500px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
 
 ### 전처리 
 
