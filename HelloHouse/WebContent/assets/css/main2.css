@@ -1,0 +1,276 @@
+/*  area setting */
+/*  
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;*/
+:root{
+	--font-color: #2f3640;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    border: none;
+}
+
+.frame {
+    width: 1920px;
+
+}
+#logo{
+	width:200px;
+	height:70px;
+}
+.header {
+    position: fixed;
+    background-color: white;
+}
+
+.header-1-menu {
+    margin: auto;
+    width: 1920px;
+    height: 70px;
+}
+
+.set-fixed {
+    margin: 0;
+    width: 1920px;
+    
+
+}
+
+.set-fixed:first-child {}
+
+.header-2-menu {
+    margin: auto;
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 1px solid #ecf0f1;
+    width: 1920px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.fade-in {
+    display: none;
+}
+
+.container-ad {
+    margin: auto;
+    width: 1920px;
+    height: 780px;
+    padding-top: 130px;
+}
+
+.container-goods {
+    margin: auto;
+
+    width: 1500px;
+    height: auto;
+}
+
+.footer {
+    margin: auto;
+    background-color: #f5f6fa;
+    width: 1920px;
+    height: 160px;
+    align-items: center;
+}
+
+.header-1-menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header-menu-items .menu-items-list {
+
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.header-1-menu .header-menu-items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#search {
+    border: none;
+    border-bottom: 2px solid #bdc3c7;
+    text-align: end;
+    font-size: 36px;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-right: 40px;
+}
+
+.header-2-menu .header-menu-items {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    margin-bottom: 8px;
+    margin-right:18px;
+    text-align: center;
+    heigth:70px;
+	weight:120px;
+	
+
+}
+
+.header-2-menu .header-menu-items .header-items-title {
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top:10px;
+}
+
+/*  goods setting */
+
+.container-goods .goods-icons {
+
+    width: 1500px;
+    height: 450px;
+    display: block;
+
+}
+
+.goods-item {
+    padding: 70px;
+}
+
+.goods-icons-items .icons-link .goods-item .goods-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/banner1.png');
+
+}
+
+.container-goods .goods-icons .goods-item {}
+
+.goods-icons-title {
+    text-align: center;
+    font-size: 48px;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+.goods-icons-items{
+	 display: flex;
+}
+.goods-icons-items .icons-link{
+    display: flex;
+    justify-content: space-around;
+     text-align: center;
+ 
+}
+
+.goods-icons-items .icons-link .goods-item {
+    width: 200px;
+    height: 200px;
+    background-color: #f5f6fa;
+    color:#f5f6fa
+    font-size: 32px;
+    margin: 20px;
+    border-radius: 2rem;
+}
+
+.goods-title {
+   font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    margin-bottom:30px;
+}
+
+
+.today-goods-title #today-title{
+	font-family: 'Nanum Gothic', sans-serif;
+    font-size: 60px;
+}
+
+/* list */
+.goods-lists {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 1500px;
+    height: 1500px;
+    margin-bottom: 100px;
+
+}
+
+.goods-list-item {
+    margin-left: 35px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+   	color:#2f3640;
+    
+   
+    /* background-color: blue; */
+}
+
+.img {
+
+  	
+   
+    /* background-color: green; */
+}
+.img-title {
+    width: 300px;
+    height: 150px;
+    font-family: 'Nanum Gothic', sans-serif;
+   
+    
+    	
+    /* background-color: green; */
+}
+.img-title p{
+	margin-bottom:10px;
+}
+#img1{
+	height: 200px;
+	width : 300px;
+
+    border-radius: 10px;
+}
+
+#img-name{
+ 	font-size: 24px;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+#img-price{
+	font-size: 20px;
+	font-weight: bolder;
+}#img-style{
+	font-size: 20px;
+}
+
+/* footer setting */
+.footer .footer-list {
+    margin: 8px;
+    margin-left:40px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+}
+
+#search:active {
+    border: none;
+}
+
+
+    

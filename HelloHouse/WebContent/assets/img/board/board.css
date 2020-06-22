@@ -1,0 +1,196 @@
+.notice{
+    display:flex;
+    width:1360px;
+    height:400px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boards{
+    
+    width:1360px;
+    height:1200px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    width:1000px;
+    height:100px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 35px;
+}
+
+.content_board{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:170px;
+   
+    width:auto;
+    height:1870px;
+}
+
+.notice_page{
+    display: flex;
+    align-items: center;
+    background-color: #fff8f8;
+    width:1200px;
+    height:100px;
+    border-radius: 10px;
+}
+.font{
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 게시판 최대 4개 */
+.board{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width:auto;
+    height:250px;
+    border-top : 1px solid #feebeb;
+    border-bottom : 1px solid #feebeb;
+    cursor: pointer;
+}
+
+
+
+/* 쪽번호 다섯개 최대 */
+.page_num{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    border-radius: 15px;
+}
+/* 이전 */
+.pre{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    border-radius: 15px;
+}
+/* 다음 */
+.next{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    border-radius: 15px;
+}
+
+.page_frame{
+    display: flex;
+    justify-content: center;
+}
+
+.page_select{
+    background-color: #FF6A89;
+    color:white;
+}
+
+.write{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 80px;
+}
+
+button{
+    font-size: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 10px;
+    background:#FF6A89;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:75px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+button:hover{
+    background:#fff;
+    color:#FF6A89;
+}
+button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #FF6A89;
+    transition:400ms ease all;
+}
+button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+
+
+.loud{
+    width:75px;
+    height: 75px;;
+}
+
+.title{
+    float: left;
+    font-weight: bold;
+    width: 1100px;
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top:30px;
+    
+}
+
+.pContent{
+    float: left;
+    width: 1100px;
+    margin-top:10px;
+    font-size:20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.imgBoard{
+    float: right;
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+
+.footer_board{
+    margin-top:20px;
+    width:1100px;
+    float:left;
+}
+.spanN{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+}

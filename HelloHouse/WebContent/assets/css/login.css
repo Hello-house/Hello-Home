@@ -1,0 +1,51 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-info {
+    margin: auto;
+    padding-top: 170px;
+    width: auto;
+    height: 654px;
+    display: flex;
+
+}
+
+.login-info div {
+    margin: 50px;
+    padding-top: 100px;
+}
+
+.login-info .login-title .login-form {
+    display: block;
+    font-size: 32px;
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    padding-bottom: 12px;
+
+}
+
+.login-info .login-input .input-list {
+    display: block;
+    font-size: 32px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding-bottom: 18px;
+    height: 32px;
+}
+
+
+
+.login-input input[type="submit"] {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 36px;
+    width: 100px;
+    height: 70px;
+    border-radius: 12px;
+
+}
+
+.login-input input:active {
+    border: none;
+}

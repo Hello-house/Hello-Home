@@ -1,0 +1,61 @@
+.viewBaskets {
+    padding-top:170px;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
+.viewBaskets-list{
+	display:flex;
+    width: 1200px;
+    heigth:50px;
+   justify-content: space-between;
+    font-size: 24px;
+   	font-family: 'Nanum Gothic', sans-serif;
+   	margin-top:30px;
+	
+	
+}
+.viewBaskets-list .list-items-info{
+	margin-right:500px;
+}
+.baskets-items{
+	display:flex;
+    align-items: center;
+    width: 1200px;
+    border-top: 2px solid #dcdde1;
+}
+
+#item-name{
+	
+}
+#item-price{
+	
+}
+#item-amount{
+	
+}
+.baskets-items p{
+	font-size: 24px;
+   	font-family: 'Nanum Gothic', sans-serif;
+   	margin: 20px;
+}
+.baskets-checkbox input[type=checkbox]{
+	size:50px;
+}
+#basketBtn {
+	width:100px;
+	height:70px;
+	font-size: 24px;
+   	font-family: 'Nanum Gothic', sans-serif;
+   	text-align:center;
+}
+#payBtn {
+	width:100px;
+	height:70px;
+	font-size: 24px;
+   	font-family: 'Nanum Gothic', sans-serif;
+   	text-align:center;
+}

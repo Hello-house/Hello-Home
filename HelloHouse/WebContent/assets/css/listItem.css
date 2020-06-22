@@ -1,0 +1,76 @@
+
+.listItem {
+    display:flex;
+    padding-top:300px;
+   	margin-left:100px;
+   	margin-right:100px;
+   	justify-content: center;
+   
+    
+}
+
+
+#imgCover{
+	width: 400px;
+	height:400px;
+	background-size: cover;
+	
+	border-radius:20px;
+	margin-right:100px;
+}
+
+.lelfItem{
+	width:500px;
+	height:400px;
+	
+	
+}
+.item-title .title {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:50px;
+}
+.rightItem{
+	
+}
+.purchase{
+	
+	width:auto;
+	height:80px;
+	border-top : 1px solid gray;
+	border-bottom : 1px solid gray;
+}
+
+
+.tax{
+	margin-top:10px;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size:20px;
+}
+
+.item-sub{
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size:36px;
+	padding-left:10px;
+	padding-top:10px;
+	margin-bottom:20px;
+	
+}
+.cart {
+	
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size:48px;
+}
+.cartBtn{
+	margin-top:30px;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size:48px;
+}
+.buyBtn{
+	margin-top:30px;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size:48px;
+}
+#amountsBtn {
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size:36px;
+}

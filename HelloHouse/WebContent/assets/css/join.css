@@ -1,0 +1,54 @@
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join .join-info {
+    margin: auto;
+    padding-top: 170px;
+    width: auto;
+    height: 654px;
+    display: flex;
+
+}
+
+.join-info div {
+    margin: 50px;
+}
+
+.join-info .join-title .join-form {
+    display: block;
+    font-size: 32px;
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    padding-bottom: 12px;
+
+}
+
+.join-info .join-input .input-list {
+    display: block;
+    font-size: 32px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding-bottom: 18px;
+    height: 32px;
+}
+
+.join-input input[type="radio"] {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 12px;
+}
+
+.join-input input[type="submit"] {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 36px;
+    width: 100px;
+    height: 70px;
+    border-radius: 12px;
+
+}
+
+.join-input input:active {
+    border: none;
+}

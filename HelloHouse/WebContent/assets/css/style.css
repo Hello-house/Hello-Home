@@ -1,0 +1,134 @@
+/* header setting */
+.body {}
+
+/* header 1 setting */
+.header-header {
+    margin-left: 80px;
+    margin-right: 80px;
+
+
+
+}
+
+.header-header-1 {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-header-1 .header-item2 {
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header 2 setting */
+.header-header-2 {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid #bdc3c7;
+    border-bottom: solid #bdc3c7;
+}
+
+.header-item2-title {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.5rem;
+    color: #27ae60;
+}
+
+.header-header-2 .header-menu {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.5rem;
+    color: #27ae60;
+}
+
+.header-ad {
+    display: flex;
+    justify-content: center;
+
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.header-ad .header-ad-items {
+    width: 350px;
+    height: 700px;
+    margin-left: 30px;
+    background-color: #bdc3c7;
+}
+
+.header-ad #headr-ad {
+
+    width: 950px;
+    height: 700px;
+}
+
+.header-service .header-service-list .service-list-items-img .items-icon {
+    margin-top: 3rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #b8e994;
+
+}
+
+.header-service .header-service-list .service-list-items-title {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.header-service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-service .header-service-list:first-child {}
+
+
+/* main grid setting */
+.main {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+
+
+}
+
+.main .main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.main .main-grid .main-grid-list {
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+.main .main-grid .main-grid-list:first-child {
+    background-color: #27ae60;
+}
+
+.main .main-grid .main-grid-list:nth-child(2) {
+    background-color: #3498db;
+}
+
+.main .main-grid .main-grid-list:nth-child(3) {
+    background-color: #9b59b6;
+}
+
+.main .main-grid .main-grid-list:nth-child(4) {
+    background-color: #34495e;
+}

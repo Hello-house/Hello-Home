@@ -1,0 +1,72 @@
+@charset "EUC-KR";
+
+.showResult{
+	padding-top:150px;
+	display=flex;
+	flex-direction:column;
+	justify-content: center;
+	text-align: center;
+	width:1000px;
+	height:1000px;
+	
+}
+
+.select{
+
+    width: 400px;
+    height: 400px;
+    font-size:70px;
+    border-radius: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    
+}
+.good{
+	display:flex;
+	flex-diretion : column;
+	justify-conten:center;
+    width:auto;
+    height:1200px;
+    left:410px;
+}
+
+.explain{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+#button{
+    background:#20EF55;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    text-align: center;
+}
+#button:hover{
+    background:#fff;
+    color:#20EF55;
+}
+#button:before,#button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #20EF55;
+    transition:400ms ease all;
+}
+#button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+#button:hover:before,#button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
