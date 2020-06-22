@@ -69,8 +69,8 @@
 
 > ## 설문지 작성
 
-<img src="./images/설문지1.png" width="500px" height="200px" title="px(픽셀) 크기 설정" alt="설문지"></img>
-<img src="./images/설문지2.png" width="300px" height="200px" title="px(픽셀) 크기 설정" alt="설문지"></img>
+<img src="./images/설문지1.png" width="500px" height="300px" title="px(픽셀) 크기 설정" alt="설문지"></img>
+<img src="./images/설문지2.png" width="300px" height="300px" title="px(픽셀) 크기 설정" alt="설문지"></img>
 
     논문을 통해 인테리어 스타일을 분류
     특성 차이를 보이는 5가지 스타일로 분류(Modern, Natural, Classic, Casual, Romantic)
