@@ -78,9 +78,9 @@
 
 > ## XGBoost
 
-<img src="./images/XGBoost1.PNG" width="450px" height="400px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
-<img src="./images/XGBoost2.PNG" width="450px" height="400px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
-<img src="./images/XGBoost3.PNG" width="450px" height="400px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
+<img src="./images/XGBoost1.PNG" width="330px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
+<img src="./images/XGBoost2.PNG" width="330px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
+<img src="./images/XGBoost3.PNG" width="330px" height="300px" title="px(픽셀) 크기 설정" alt="XGBoost"></img>
 
 ### 전처리 
 
@@ -95,8 +95,8 @@
 
 
 > ## 플라스크
-<img src="./images/과정1.PNG" width="900px" height="400px" title="px(픽셀) 크기 설정" alt="설문지"></img>
-<img src="./images/과정2.PNG" width="900px" height="400px" title="px(픽셀) 크기 설정" alt="설문지"></img>
+<img src="./images/과정1.PNG" width="900px" height="200px" title="px(픽셀) 크기 설정" alt="설문지"></img>
+<img src="./images/과정2.PNG" width="900px" height="200px" title="px(픽셀) 크기 설정" alt="설문지"></img>
 
     1. 설문지 또는 32강 월드컵 기능을 통해 확보한 회원 개인의 인테리어 성향 정보를 플라스크 서버를 활용해 전달
     2. 전달 받은 정보를 XGBoost모델을 활용해 분석
